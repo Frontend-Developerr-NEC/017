@@ -11,19 +11,19 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 /* Small devices (Mobiles, 576px and Down) */
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 310px) and (max-width: 480px) {
 
     #LargeDevices {
         display: none;
     }
     main{
         display: none;
-        height: 100vh;
-        width: 100vw;
+        height: 100%;
+        width: 100%;
         justify-content: center;
         align-items: center;
         flex-direction: column;
@@ -33,7 +33,7 @@ html {
     #RegisterSection {
         display: flex;
         height: 350px;
-        width: 250px;
+        width: 240px;
         border: 2px solid black;
         padding: 5px 5px;
 
