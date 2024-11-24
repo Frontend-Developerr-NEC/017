@@ -15,7 +15,7 @@ html {
 }
 
 /* Small devices (Mobiles, 576px and Down) */
-@media (min-width: 300px) and (max-width: 600px) {
+@media (min-width: 290px) and (max-width: 600px) {
 
     #LargeDevices {
         display: none;
