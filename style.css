@@ -1,0 +1,139 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+/* Large Device Section */
+
+@media (min-width:426px) and (max-width:2560px) {
+    #RegisterSection {
+        display: none;
+    }
+    main{
+        display: none;
+    }
+}
+
+/* Small Device Section */
+
+@media (min-width:320px) and (max-width:425px) {
+
+    #LargeDevices {
+        display: none;
+    }
+    main{
+        display: none;
+        height: 100vh;
+        width: 100vw;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    #RegisterSection {
+        display: flex;
+        height: 350px;
+        width: 250px;
+        border: 2px solid black;
+        padding: 5px 5px;
+
+    }
+
+    /* Register And Login Combine Section */
+
+    .UserPassDiv {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        row-gap: 10px;
+    }
+
+    .UserPassDiv>label {
+        font-size: 20px;
+    }
+
+    .UserPassDiv>input {
+        height: 35px;
+        font-size: 18px;
+        padding: 10px 10px;
+        border-left: none;
+        border-right: none;
+        border-top: none;
+    }
+
+    .UserPass1Status{
+        font-size: 18px;
+
+    }
+
+    /* Register Section */
+
+    #SignupDiv {
+        height: 100%;
+        width: 100%;
+        border: 2px solid green;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 15px 15px;
+        row-gap: 10px;
+    }
+
+    #RegisterBtn {
+        width: 80%;
+        height: 40px;
+    }
+
+    /* Login Section */
+
+    #LoginDiv {
+        height: 100%;
+        width: 100%;
+        border: 2px solid green;
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 15px 15px;
+        row-gap: 25px;
+    }
+
+
+
+    #LoginBtn {
+        width: 80%;
+        height: 40px;
+    }
+
+    #AccountName{
+        color: greenyellow;
+    }
+
+    #ShowUserPass{
+        width:max-content ;
+        padding: 8px;
+        height: 40px;
+    }
+
+    #LogOut{
+        width: 150px;
+        height: 40px;
+    }
+
+}
