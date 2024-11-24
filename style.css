@@ -15,7 +15,7 @@ html {
 }
 
 /* Small devices (Mobiles, 576px and Down) */
-@media (min-width: 310px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 480px) {
 
     #LargeDevices {
         display: none;
@@ -168,14 +168,3 @@ html {
     }
 }
 
-/* Large Device Section */
-
-
-
-/* Small Device Section */
-
-@media (min-width:320px) and (max-width:425px) {
-
-  
-
-}
